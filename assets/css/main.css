@@ -1709,7 +1709,7 @@
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: #222729;
 		}
 
 			.image.avatar48 img {
@@ -2536,3 +2536,20 @@
 				}
 
 	}
+
+/* skill section */
+
+#main > section.dark h3.skill {
+	color: #666;
+}
+
+.image.fit.mini {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+.row.center {
+	margin: 0 auto;
+	width: 550px;
+}
