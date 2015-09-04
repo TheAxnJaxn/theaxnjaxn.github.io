@@ -2553,3 +2553,9 @@
 	margin: 0 auto;
 	width: 550px;
 }
+
+/* mini buttons */
+
+a.button.mini {
+  padding: 5px 25px 5px 25px;
+}
