@@ -2551,17 +2551,10 @@
 
 .row.center {
 	margin: 0 auto;
-	width: 550px;
 }
 
 /* mini buttons */
 
 a.button.mini {
   padding: 5px 25px 5px 25px;
-}
-
-/* Removes left padding from some <p> tags */
-
-p.no-pad {
-	padding-left: 0px;
 }
