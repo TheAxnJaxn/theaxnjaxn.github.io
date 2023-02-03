@@ -2549,8 +2549,15 @@
 	height: 100px;
 }
 
-.row.center {
-	margin: 0 auto;
+.images-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 0 2em 0;
+}
+
+.image-single {
+	padding: 10px 10px;
 }
 
 /* mini buttons */
