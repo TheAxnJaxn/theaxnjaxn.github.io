@@ -57,7 +57,7 @@
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/kristalynnjackson" class="icon fa-linkedin" target="_blank" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/TheAxnJaxn/" class="icon fa-github" target="_blank" title="GitHub"><span class="label">GitHub</span></a></li>
-							<li><a href="mailto:krista.lynn.jackson@gmail.com" class="icon fa-envelope" target="_blank" title="Email"><span class="label">Email</span></a></li>
+							<!-- <li><a href="mailto:email-address" class="icon fa-envelope" target="_blank" title="Email"><span class="label">Email</span></a></li> -->
 							<!-- <li><a href="./docs/Krista_Jackson_Resume.pdf" class="icon fa-black-tie" target="_blank" title="Resume"><span class="label">Resume</span></a></li> -->
 						</ul>
 
@@ -250,15 +250,14 @@
 
 							<p>Drop me a line via the form below.</p>
 
-							<form method="post" action="http://formspree.io/krista.lynn.jackson@gmail.com">
+							<form method="POST" action="https://formspree.io/f/xqadnlpj">
 								<input type="hidden" name="_next" value="./thanks.html" />
-								<input type="hidden" name="_subject" value="Thanks for contacting me from theaxnjaxn.github.io" />
 								<input type="text" name="_gotcha" style="display:none" />
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="_replyto" placeholder="Email" /></div>
+									<div class="6u 12u$(mobile)"><input type="text" name="subject" placeholder="Subject" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Your Email" /></div>
 									<div class="12u$">
-										<textarea name="body" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="12u$">
 										<input type="submit" value="Send Message" />
